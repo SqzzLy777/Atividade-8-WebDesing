@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Faculdade Hogwars - Ensino Superior de Qualidade</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Universidade de cidade fictícia. Excelência em Ensino Superior, preparando alunos para o mercado de trabalho.">
+    <meta name="keywords" content="faculdade, ensino superior, cursos, graduação, pós-graduação">
+    <meta name="author" content="Faculdade Exemplo">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Revert: não forçar alinhamento das listas do rodapé aqui.
+           Estilos locais apenas para centralizar o formulário da newsletter. */
+        footer .newsletter-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 0.5rem;
+            flex-wrap: wrap; /* permite empilhar em telas pequenas */
+        }
+
+        footer .newsletter-form input[type="email"] {
+            width: 100%;
+            max-width: 320px; /* um pouco mais largo para melhor usabilidade */
+            align-content: center;
+            justify-content: center;
+            padding: 0.5rem 0.6rem;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            margin: 0; /* centraliza o input dentro da coluna */
+        }
+
+        footer .newsletter-form button {
+            padding: 0.5rem 0.75rem;
+            border-radius: 4px;
+            border: none;
+            background: #2b6cb0;
+            color: #fff;
+            cursor: pointer;
+        }
+    </style>
+    <!-- Adicionando ícone da página -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
+
+</head>
+<body>
+    <!-- Cabeçalho com navegação principal -->
+    <header>
+        <div class="header-container">
+            <h1>Faculdade Hogwars</h1>
+            <p>Transformando conhecimento em futuro</p>
+        </div>
+        <nav aria-label="Navegação principal">
+            <div class="nav-container">
+                <a href="index.html">Página Inicial</a>
+                <a href="#cursos">Cursos</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#infraestrutura">Infraestrutura</a>
+                <a href="#corpo-docente">Docentes</a>
+                <a href="#eventos">Eventos</a>
+                <a href="#noticias">Notícias</a>
+                <a href="#depoimentos">Depoimentos</a>
+                <a href="#extensao">Extensão</a>
+                <a href="#faq">FAQ</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner principal com chamada para ação -->
+    <div class="banner">
+        <div class="banner-content">
+            <h2>Bem-vindo à Faculdade Hogwars</h2>
+            <p>Excelência acadêmica desde 1947</p>
+            <button class="cta-button">Inscreva-se Agora</button>
+        </div>
+    </div>
+
+    <!-- Conteúdo principal da página -->
+    <main>
+        <!-- Seção sobre a instituição -->
+        <section id="sobre" class="fade-in">
+            <div class="section-header">
+                <h2>Quem Somos</h2>
+                <p>Conheça nossa história e valores</p>
+            </div>
+            <div class="sobre-content">
+                <div class="sobre-texto">
+                    <p>A Faculdade Hogwars é uma instituição de ensino superior dedicada à formação de profissionais preparados para os desafios do mercado.</p>
+                    <p>Nossa missão, como faculdade, é oferecer educação de qualidade, com cursos de graduação e pós-graduação que transformam a vida de nossos alunos.</p>
+                    <ul class="sobre-lista">
+                        <li>Mais de 30 anos de tradição</li>
+                        <li>Corpo docente qualificado</li>
+                        <li>Infraestrutura moderna</li>
+                        <li>Projetos de extensão e pesquisa</li>
+                        <li>Parcerias internacionais</li>
+                        <li>Alta empregabilidade</li>
+                    </ul>
+                </div>
+                <div class="sobre-imagem">
+                    <img src="https://images.unsplash.com/photo-1562774053-701939374585" alt="Campus da Faculdade" width="100%">
+                </div>
+            </div>
+            <blockquote>
+                "Educação é a arma mais poderosa que você pode usar para mudar o mundo." - Nelson Mandela
+            </blockquote>
+        </section>
+
+        <!-- Seção de cursos oferecidos -->
+        <section id="cursos" class="fade-in">
+            <div class="section-header">
+                <h2>Nossos Cursos</h2>
+                <p>Conheça nossas opções de graduação</p>
+            </div>
+            <div class="cursos-grid">
+                <div class="curso-card">
+                    <div class="curso-icon">📊</div>
+                    <h3>Administração</h3>
+                    <p>Gestão, liderança e empreendedorismo.</p>
+                    <div class="curso-info">
+                        <span class="curso-duracao">4 anos</span>
+                        <span class="curso-periodo">Matutino/Noturno</span>
+                    </div>
+                    <a href="cursos/administracao.html" class="curso-link">Saiba mais</a>
+                </div>
+                <div class="curso-card">
+                    <div class="curso-icon">💻</div>
+                    <h3>Ciência da Computação</h3>
+                    <p>Inovação tecnológica e desenvolvimento de software.</p>
+                    <div class="curso-info">
+                        <span class="curso-duracao">4 anos</span>
+                        <span class="curso-periodo">Integral/Noturno</span>
+                    </div>
+                    <a href="cursos/ciencia-computacao.html" class="curso-link">Saiba mais</a>
+                </div>
+                <div class="curso-card">
+                    <div class="curso-icon">⚖️</div>
+                    <h3>Direito</h3>
+                    <p>Formação jurídica completa e ética.</p>
+                    <div class="curso-info">
+                        <span class="curso-duracao">5 anos</span>
+                        <span class="curso-periodo">Matutino/Noturno</span>
+                    </div>
+                    <a href="cursos/direito.html" class="curso-link">Saiba mais</a>
+                </div>
+                <div class="curso-card">
+                    <div class="curso-icon">🏗️</div>
+                    <h3>Engenharia Civil</h3>
+                    <p>Projetos, obras e sustentabilidade.</p>
+                    <div class="curso-info">
+                        <span class="curso-duracao">5 anos</span>
+                        <span class="curso-periodo">Integral</span>
+                    </div>
+                    <a href="cursos/engenharia-civil.html" class="curso-link">Saiba mais</a>
+                </div>
+                <div class="curso-card">
+                    <div class="curso-icon">🩺</div>
+                    <h3>Medicina</h3>
+                    <p>Excelência em saúde e pesquisa.</p>
+                    <div class="curso-info">
+                        <span class="curso-duracao">6 anos</span>
+                        <span class="curso-periodo">Integral</span>
+                    </div>
+                    <a href="cursos/medicina.html" class="curso-link">Saiba mais</a>
+                </div>
+                <div class="curso-card">
+                    <div class="curso-icon">🧠</div>
+                    <h3>Psicologia</h3>
+                    <p>Compreensão do comportamento humano.</p>
+                    <div class="curso-info">
+                        <span class="curso-duracao">5 anos</span>
+                        <span class="curso-periodo">Matutino/Noturno</span>
+                    </div>
+                    <a href="cursos/psicologia.html" class="curso-link">Saiba mais</a>
+                </div>
+            </div>
+            
+            <!-- Tabela com informações detalhadas dos cursos -->
+            <table class="tabela-cursos">
+                <caption>Resumo dos Cursos Oferecidos</caption>
+                <thead>
+                    <tr>
+                        <th>Curso</th>
+                        <th>Duração</th>
+                        <th>Modalidade</th>
+                        <th>Vagas Anuais</th>
+                        <th>Nota de Corte</th>
+                        <th>Mensalidade</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Administração</td>
+                        <td>4 anos</td>
+                        <td>Presencial</td>
+                        <td>80</td>
+                        <td>650</td>
+                        <td>R$ 850,00</td>
+                    </tr>
+                    <tr>
+                        <td>Engenharia da Computação</td>
+                        <td>5 anos</td>
+                        <td>Presencial/EAD</td>
+                        <td>60</td>
+                        <td>720</td>
+                        <td>R$ 2400,00</td>
+                    </tr>
+                    <tr>
+                        <td>Direito</td>
+                        <td>5 anos</td>
+                        <td>Presencial</td>
+                        <td>100</td>
+                        <td>780</td>
+                        <td>R$ 1.200,00</td>
+                    </tr>
+                    <tr>
+                        <td>Engenharia Civil</td>
+                        <td>5 anos</td>
+                        <td>Presencial</td>
+                        <td>50</td>
+                        <td>750</td>
+                        <td>R$ 1.300,00</td>
+                    </tr>
+                    <tr>
+                        <td>Medicina</td>
+                        <td>6 anos</td>
+                        <td>Presencial</td>
+                        <td>40</td>
+                        <td>850</td>
+                        <td>R$ 4.500,00</td>
+                    </tr>
+                    <tr>
+                        <td>Psicologia</td>
+                        <td>5 anos</td>
+                        <td>Presencial</td>
+                        <td>60</td>
+                        <td>680</td>
+                        <td>R$ 980,00</td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <!-- Seção de cursos de pós-graduação -->
+            <div class="pos-graduacao">
+                <h3>Cursos de Pós-Graduação</h3>
+                <div class="pos-grid">
+                    <div class="pos-card">
+                        <h4>MBA em Gestão Empresarial</h4>
+                        <p>18 meses - Especialização</p>
+                    </div>
+                    <div class="pos-card">
+                        <h4>Mestrado em Computação Aplicada</h4>
+                        <p>24 meses - Acadêmico</p>
+                    </div>
+                    <div class="pos-card">
+                        <h4>Especialização em Direito Digital</h4>
+                        <p>12 meses - Especialização</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de infraestrutura -->
+        <section id="infraestrutura" class="fade-in">
+            <div class="section-header">
+                <h2>Infraestrutura</h2>
+                <p>Ambientes modernos para melhor aprendizado</p>
+            </div>
+            <div class="infra-grid">
+                <div class="infra-item">
+                    <img src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.eduvaleavare.com.br%2Fwp-content%2Fuploads%2F2018%2F03%2Fcampus2.jpg&f=1&nofb=1&ipt=d295881e961cc145332e1c43cd85ddd6e62e75c73ab03dd2f29fd0caa2c17970" alt="Imagem do Campus da Faculdade Exemplo"width="100%">
+                    <h3>Campus Principal</h3>
+                    <p>Campus moderno e acessível com 50.000m² de área construída.</p>
+                </div>
+                <div class="infra-item">
+                    <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0" alt="Biblioteca da Faculdade"width="100%">
+                    <h3>Biblioteca Central</h3>
+                    <p>Biblioteca com acervo atualizado de mais de 100.000 volumes.</p>
+                </div>
+                <div class="infra-item">
+                    <img src="https://images.unsplash.com/photo-1464983953574-0892a716854b" alt="Laboratório de Informática"width="100%">
+                    <h3>Laboratórios de Informática</h3>
+                    <p>Laboratórios de informática e pesquisa com equipamentos de última geração.</p>
+                </div>
+                <div class="infra-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCU1REBvomsgvmWkjLYxfk0ebX5_pWAKPiAw&s" alt="Laboratório de Engenharia"width="100%">
+                    <h3>Laboratórios de Engenharia</h3>
+                    <p>Estruturas completas para práticas de engenharia civil e elétrica.</p>
+                </div>
+            </div>
+            <div class="infra-detalhes">
+                <h3>Nossas Instalações Incluem:</h3>
+                <div class="detalhes-lista">
+                    <div class="detalhe-item">
+                        <span class="detalhe-icon">🏢</span>
+                        <p>Salas climatizadas com projetores e Wi-Fi</p>
+                    </div>
+                    <div class="detalhe-item">
+                        <span class="detalhe-icon">🍽️</span>
+                        <p>Restaurante universitário com refeições a preço acessível</p>
+                    </div>
+                    <div class="detalhe-item">
+                        <span class="detalhe-icon">🎭</span>
+                        <p>Auditório para 500 pessoas com equipamento de áudio e vídeo</p>
+                    </div>
+                    <div class="detalhe-item">
+                        <span class="detalhe-icon">⚽</span>
+                        <p>Complexo esportivo com quadras e ginásio poliesportivo</p>
+                    </div>
+                    <div class="detalhe-item">
+                        <span class="detalhe-icon">🏥</span>
+                        <p>Ambulatório médico e odontológico para alunos</p>
+                    </div>
+                    <div class="detalhe-item">
+                        <span class="detalhe-icon">🅿️</span>
+                        <p>Estacionamento gratuito para alunos e funcionários</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção do corpo docente -->
+        <section id="corpo-docente" class="fade-in">
+            <div class="section-header">
+                <h2>Corpo Docente</h2>
+                <p>Professores qualificados com experiência de mercado</p>
+            </div>
+            <div class="equipe-grid">
+                <div class="prof-card">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Prof. João Silva">
+                    <h3>Prof. João Silva</h3>
+                    <p class="prof-titulacao">Doutor em Administração</p>
+                    <p class="prof-experiencia">15 anos de experiência em gestão corporativa</p>
+                    <div class="prof-contato">
+                        <span>joao.silva@faculdadeHogwars.edu.br</span>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Profa. Maria Souza">
+                    <h3>Profa. Maria Souza</h3>
+                    <p class="prof-titulacao">Mestre em Ciência da Computação</p>
+                    <p class="prof-experiencia">Especialista em inteligência artificial e machine learning</p>
+                    <div class="prof-contato">
+                        <span>maria.souza@faculdadeHogwars.edu.br</span>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Prof. Carlos Lima">
+                    <h3>Prof. Carlos Lima</h3>
+                    <p class="prof-titulacao">Doutor em Direito</p>
+                    <p class="prof-experiencia">Advogado com 20 anos de atuação na área cível</p>
+                    <div class="prof-contato">
+                        <span>carlos.lima@faculdadeHogwars.edu.br</span>
+                    </div>
+                </div>
+                <div class="prof-card">
+                    <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Profa. Ana Costa">
+                    <h3>Profa. Ana Costa</h3>
+                    <p class="prof-titulacao">Doutora em Engenharia Civil</p>
+                    <p class="prof-experiencia">Especialista em estruturas e fundações</p>
+                    <div class="prof-contato">
+                        <span>ana.costa@faculdadeHogwars.edu.br</span>
+                    </div>
+                </div>
+            </div>
+            <div class="docente-info">
+                <h3>Excelência Acadêmica</h3>
+                <p>O corpo docente é composto por profissionais altamente prestigiados no mercado, com ampla experiência acadêmica e em pesquisas científicas.</p>
+                <ul class="docente-lista">
+                    <li>80% dos professores com título de doutorado</li>
+                    <li>Professores com experiência internacional</li>
+                    <li>Participação ativa em congressos e publicações científicas</li>
+                    <li>Projetos de iniciação científica orientados</li>
+                    <li>Orientação personalizada aos alunos</li>
+                    <li>Atualização constante através de programas de desenvolvimento</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Seção de eventos -->
+        <section id="eventos" class="fade-in">
+            <div class="section-header">
+                <h2>Eventos Acadêmicos</h2>
+                <p>Participe de nossas atividades extracurriculares</p>
+            </div>
+            <div class="eventos-destaque">
+                <h3>Próximos Eventos</h3>
+                <ul class="eventos-lista">
+                    <li>
+                        <strong>Semana Acadêmica:</strong> 10 a 14 de Maio de 2025
+                        <span class="evento-local">Auditório Principal</span>
+                    </li>
+                    <li>
+                        <strong>Feira de Profissões:</strong> 20 de Junho de 2025
+                        <span class="evento-local">Ginásio Poliesportivo</span>
+                    </li>
+                    <li>
+                        <strong>Congresso de Pesquisa:</strong> 5 de Agosto de 2025
+                        <span class="evento-local">Centro de Convenções</span>
+                    </li>
+                    <li>
+                        <strong>Hackathon de Inovação:</strong> 15 de Setembro de 2025
+                        <span class="evento-local">Laboratórios de Informática</span>
+                    </li>
+                    <li>
+                        <strong>Dia da Responsabilidade Social:</strong> 10 de Outubro de 2025
+                        <span class="evento-local">Campus e Comunidade</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="eventos-cards">
+                <div class="evento-card">
+                    <div class="evento-data">
+                        <span class="dia">10</span>
+                        <span class="mes">MAI</span>
+                    </div>
+                    <h3>Palestra: Inovação na Educação</h3>
+                    <p>Com especialistas nacionais e internacionais discutindo as tendências educacionais.</p>
+                    <span class="evento-horario">14:00 - 17:00</span>
+                    <button class="evento-inscricao">Inscrever-se</button>
+                </div>
+                <div class="evento-card">
+                    <div class="evento-data">
+                        <span class="dia">20</span>
+                        <span class="mes">JUN</span>
+                    </div>
+                    <h3>Workshop: Programação Web</h3>
+                    <p>Aprenda as tendências do mercado de TI com profissionais experientes.</p>
+                    <span class="evento-horario">09:00 - 12:00</span>
+                    <button class="evento-inscricao">Inscrever-se</button>
+                </div>
+                <div class="evento-card">
+                    <div class="evento-data">
+                        <span class="dia">05</span>
+                        <span class="mes">AGO</span>
+                    </div>
+                    <h3>Oficina de Oratória</h3>
+                    <p>Desenvolva habilidades de comunicação e apresentação em público.</p>
+                    <span class="evento-horario">19:00 - 22:00</span>
+                    <button class="evento-inscricao">Inscrever-se</button>
+                </div>
+                <div class="evento-card">
+                    <div class="evento-data">
+                        <span class="dia">15</span>
+                        <span class="mes">SET</span>
+                    </div>
+                    <h3>Seminário de Saúde</h3>
+                    <p>Discussão sobre avanços na medicina e cuidados com a saúde pública.</p>
+                    <span class="evento-horario">08:30 - 12:30</span>
+                    <button class="evento-inscricao">Inscrever-se</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de notícias -->
+        <section id="noticias" class="fade-in">
+            <div class="section-header">
+                <h2>Notícias e Atualizações</h2>
+                <p>Fique por dentro do que acontece na nossa instituição</p>
+            </div>
+            <div class="noticia-content">
+                        <h3 itemprop="headline">Semana Acadêmica 2025 atrai mais de 2.000 participantes</h3>
+                        <p itemprop="articleBody">A Faculdade Hogwars realizou sua tradicional Semana Acadêmica com palestras, workshops e minicursos que abordaram as principais tendências do mercado.</p>
+                        <div class="noticia-meta">
+                            <time itemprop="datePublished" datetime="2025-05-10">10 de Maio de 2025</time>
+                            <span class="noticia-categoria">Eventos</span>
+                        </div>
+                        <a href="#" class="noticia-link">Leia mais</a>
+            <div class="noticias-grid">
+                <article itemscope itemtype="https://schema.org/NewsArticle">
+                    <div class="noticia-img">
+                        <img src="data:image/jpeg;base64,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" alt="Estudantes em aula" itemprop="image">
+                    </div>
+                    </div>
+                </article>
+                <article itemscope itemtype="https://schema.org/NewsArticle">
+                                        <div class="noticia-content">
+                        <h3 itemprop="headline">Formatura 2024-2 celebra conquistas de 350 novos profissionais</h3>
+                        <p itemprop="articleBody">Cerimônia emocionante marcou a formatura de mais uma turma de alunos da Faculdade Hogwars, que agora partem para o mercado de trabalho.</p>
+                        <div class="noticia-meta">
+                            <time itemprop="datePublished" datetime="2025-06-02">2 de Junho de 2025</time>
+                            <span class="noticia-categoria">Formatura</span>
+                        </div>
+                    </div>
+                        <a href="#" class="noticia-link">Leia mais</a>
+                    </div>
+                    <div class="noticia-img">
+                        <img src="data:image/jpeg;base64,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" alt="Formatura de alunos" itemprop="image">
+
+                </article>
+                                    <div class="noticia-content">
+                        <h3 itemprop="headline">Novo Laboratório de Robótica é inaugurado com investimento de R$ 500 mil</h3>
+                        <p itemprop="articleBody">Inauguramos um laboratório equipado com tecnologia de ponta para pesquisas em robótica, automação e inteligência artificial.</p>
+                        <div class="noticia-meta">
+                            <time itemprop="datePublished" datetime="2025-07-15">15 de Julho de 2025</time>
+                            <span class="noticia-categoria">Infraestrutura</span>
+                        </div>
+                        <a href="#" class="noticia-link">Leia mais</a>
+                    </div>
+                <article itemscope itemtype="https://schema.org/NewsArticle">
+                    <div class="noticia-img">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUSExMWFhUXGB0XGBgXGR8fHxgaHRgXHxgdHR8dICggGB0lHR0VITEhJSkrLi4uGB8zODMsNygtLisBCgoKDg0OGxAQGi0lHSUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS8tLS0tKy0tLS0tLS0tLS0tLS0tK//AABEIAKgBLAMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAFBgMEAQIHAAj/xABJEAACAQIEAgcEBQgIBgIDAAABAhEAAwQSITEFQQYTIlFhcYEykaGxI0LB0fAHFDNScpKy4RZTYnOCosLSFSRDs+LxRGM0g5P/xAAZAQEBAQEBAQAAAAAAAAAAAAABAAIDBAX/xAAlEQEBAAICAwABAwUAAAAAAAAAAQIRAyESMUFREyJhBBQyofH/2gAMAwEAAhEDEQA/ADn/ABWx/Wp763HErP8AWp+8KRiK3UV4/wC5v4er+3n5O/5/Z/rbf76/fUtu8pJAYEjcA6jz7qRsNfNt1cAEqZE7UZ6PYhnvXWYyWAPukD3CB6V04+fyunPPh8ZsyVHet5hHj7qkFV7+IUEKSATyPMfgGvQ4JlcACdNKj/O59lZE6naPH7KHX7kkgmSPvqjimMCOR+cVTuqjyY4Hl8/9tT2bmYTEeFLNjrJjWJJ8COVF7d4pbk8q1ZoSiLsAJJAHeajw+KR1LI6uASJUgiRuJHOkDFccN7M2pUnVSAYOo0nyIrHC+MdSrIA5QmQugC+UGddPdWO2unQ0uA7VX4hfCoxJ5GlO30pYGYMd0D51Di+PtckNOUiICjTbWZ30Pvp+AWwiXH7QjIRAACg/ZRXE47LECZpU4TxcApZgnMTBjwJMAtGwO5ojfvsSRlBCsVM6clI01GoJ515/Hknp1uWNVOKcRN5ykr9Ge0MpkNzHtEEQRr41utoWyQzSOXZPr39/wojhOEW7iuerAcmWcHcn120Gm2lWW4Qx1JAbmQJnu+sPlXbkxwyx6nev99M4ZZS93rYKuLQNvse46/CmLAY8XGcAaLEHvnNyI0iKpNwdjIz+Hs/+WtS8I4V1GaDIMCIiAM0bklt+dX9PjJjl5e+tLmy3ZoWr1YBrM10YaMKAtw5OuckTJU66xvR80F4tjUsZ7tycq5JgSdWgaeZFSWLWHUchzq5bQd34ilVOmuFkL9JqYkqABJ3JLaCif9JsIP8A5Nn/APovd51qActR8T86g4WfoEnfL99VeG8ZsXiRauo5GpCsDAnwqxgUy2UWZhYnv0q321rpZc/M/M1Wubfj9Wpz+Pearvy/HIVMsxr6n51Go38x/G1TAbeZ/iNRqNfOPmxoQVxUTfw48W+dqrKjsr/h/iWq3FXC3rTGYXUxyAKE/KpcJiVuW1ZZjTcRsy/iazr61BNXBYqJlQJ0I7zudD6VJ1bd3I93P1oVbtBQwt34MB1X6OGgSD2VBYEiCQdZOtZw3GbVzsh4cSCjaMCCQZ8iKkv3mIYLlYl4AiNPE66DfXwqY7n8chVK/dUBmkScoGu5zLoP83urdLhOu3h6CpE2K3mtVw9z+rf90/dWxwt0/wDTf9w/dXyvGvo7jQminRd/piP7J+BFDPzW7/VXP3G+6iHR22y39VYdkgyCN4jeunFjZnHPks8aYsfxAWlLH2RvvzIA2B76D47ithgXdjlA1+jc6DU/V89qu9InC2XYiQAuh/vEpXu4pXRlye0pWdoBHLlX0Jhnl3j6eC8mGP8Aktjj2DIYi42UwCRZuQCJjUKIOp3rf+keE361oP8A9bj7NtKX+GcHnD3WnlOvl+B61FxW1bRboyhiFQhy2qADXQAjYeddPGe4t/kzr0swwj6UwNNLTfbV2zx2xfBS2XJyF5IgRDd48DS9w3otd6lmdEKspYSQ0GOydhz8NPGq/ALeUXhyXDNHjIvN6wGAkaVjcrWtLXBsOpRB+s1yfRzFFhwxO4/j0qng2A/NzoJVh6lmA+VX8TxS1bALEwZIIUnYgHYd5Hvp1tlr/wAMTuP49K9/w1O6ocRx22tsXNTM/VIC9qFDcxpB2762bi9sW0udt1b6yqYnMQRsD5CJ84NHjfwrZ+Va9hlXFYeO9v8AtvV677V3+8X/ALS1VvY/Dnq8QzvCmUhGOYkFSpEZgZOxjlUuFxK3mushJXrFGoIIK24YEMAQQQRqOVFnRMnBRAb0+376vsaH8JPtVeJrJV8IrAdrw5841/HhUr1iawxrUDK1tWi1ma0kWIfst5H5Uq9NBHD2H9pP+4KZb7CDryNKV25fxGGUsbQQqHK5T5ic2YSIPvrOv3bPxzu8eyfKqeFHZpsXhQuBbogKyhgukRvtGnvqxa4WyutxFVcjTAA18CecH5VrYRfk+vi3duu0BcqgszKoHaO5YjePga6DY4zayLLr7EkqysNIDaqTzKj1FKuJxiEjNafQzAvPB10kTBrGL41nXJ1QykZSMxEjQ7rBBkVbO+tH21cDAMCMp1mRtr99DuIcWtWXVXYyQT2QT4cvI0rWukeRAi2oA0jfTzkGarWuOk3xdKCFGUASNDOp311q2NGv+lGHzKoLyTA7JG58aKWzJU+A+TVzrG8VN69a0AAdfP2h4Dx94p6wL6AeGn+epB3SVmCsykgraciN5yCI5gz3VD0PuM+FtszMzFn1JJMC4QNT3QBUvSq+qKMyO4aUOQwQIE8j9lLmH4+tlFt2uutKMwAJtPuSW9tDzJ3neKvmls12rai4LjMyi2pXKEMAMGJYkqZIkjwjal7ht5LF68RdBRY7bnV5zHWEMnta6fVrHCOklpFKBroEyVFqwqz3/Ros8omYgRsKI8N4hbBxGLtvczKoLyE1AUgBRsNF8KFtdfiSunWAkKI0KnMdVAgASZOWIEwBV7C4gMuYbHaQRpy0IB2pMudJLHWXLi/nJNyM4PVLMEETlEmIG576yOmKLoLbxy7S/wC2nRdFyjuHurBRf1R7hWM1YmsJnKO4e6vAVgGvE1AH6W3SuFusACQswwkaMp1HOlTD2r+YALYKGc5CiRMkEBh7MRp5+dN3SS2Ww91QCSUMACSfLvpYw2BuC5JLEKToYETqPaPIQI2gCi5ZSdNTGX2FY3jV7DsbFpkFtdB9CkQQCZDKeZNRcP4leuZtbZAgGMPZ0naexsTt369xoovC5vXbt0oBmGQG4gDALz7Wms91XL7obBVWspcI0PWWmggyNQx3jx3onJfWq3cJre1a5jMbljrWCkQAAg08gNKj4PfvO15bjkjqbmmnO2w5edWLhtgQcUjLr3zzj2EI37qj4AtgM0XusvMrgwr5cuWVAzIuoIbXnIrrdOTXF64ewNdUOxIP6W5zGoquiPAWGyiIXM0AjYxMT470SwyA2MJPMEf5nNF7WCt/q/E/fRbQWRhGIy5TlmYJJEzMwTEzzrU8OH9Wumuw5c6b1wifqiqHGrgtWblxVWVUtrzABMeFXlTqANvhy9batui5bjnNCifYcz5yBr50wYbCJZN62ghVa2QPNGn40Ls4rr/za5bCo0gknUKYKsI0LES0bDT0ozeb6TEeVn+G5WfLfR0L8HaQ1EGNDODHfyoi1CaTWDXvx8ahxGIVBLsqjvYgD3mmIN4piSXySQAAYHM6zPfyojhrkoJMmKW7+Jzv1qwUD5CQQfI6cjRrA3OyJ22HjBNU9m+lXHnQ+RoRwogYXztQPOGovxFDlbQ8659d4oFyqMRctMii2yZWgtr3HxiYNaZM/B8owltswlbR0Mck0pWtdLb0apaI/ZI+TUVf88w9vqhcV1KqiIFGbtAKBBAIid5NJb2XUspUypKsN4IMEGPEGmI08O44b95LRtKMxiQdtJ2jwopZwqlVEpnyKxWddV7t6SuFXCl1HKXGCmSEBzbECO7WKn4tiQ9wtldVIAUXBrAA08pmo6utng8I8PxrQ65gYvZIPsZvnQzotjirtmvBECx227Ek6aEgTAPxo2uKLYqVe082oDKezEnxOtQQYrAi3dsd5ufJlpywv2f7qVuM3LnXYcMg9piMre1BQncCKP2ceedq4PQHkfGioL6e8Su2lsm1cZCzMDHPalL+kuMj/wDIY+aIfmpo7+UG7mXDRI7T7/8A6/vpEAJBJNSMNrpNiju1t/2rSfYoo1wzib3cHjS621hFE20CzIbeN/5mkrCyAd/D30y8LfLw/HHxUfj30oAtXGHId+YEzyjTlGtbM0me/wDHpVK1ieRBnvB/lVlWpTuNYNYmsMa5lsDWJrTNWC1QU+P4c3LF22Il7bqJ2kqYmkXDdB7xyr1tsdWNdCZzEkQIp/xtyEZu5WP+U0sf0wtJmco5DADVQNu/t6bjnTEocQ4ELBUE5pEjKjH3gAxQm9fVZgSQdisT3wfD8bUZxnTy00Rh3YxAGfKP4W1qFGwTILr9kv2mVnZsrHUyYTXyreFx3+/1/DOd1OlB76EDUAlc2XnGvLltzq10UT6S3cLfpAwA01OUxHeIDe6ivR6xZxD3LYS0UslSjorycwk9pnaIYRA7vSmO/wAPQFG7OYMYJVJ1DbHLIJG8Ec6Mtb/a1jvXZX41jOot4YAAAK7+WVbf+8n0q8McBviFH7KE/fVLj1qRZPMFlHrbsfdVRMIeZrNI3a4qgOt5n8Orj7AaCcTxr4j6KEtprJuAsCP8OoPpr4Vu2EA+tWuEsK7EKS2XeBp76Nde1tGl9bVxRbtAqpEZQApgg6AtmHPlv8TWHxhuG85UoSLUqfDrPfVK/g8l7DGCPpBqfI0Vxqnrbv7Ns/F6fgG+D/W8hRA0I4A85p8KKsayUVx4H4765t+UjEtnQTplEfvNm+Se4V0HEXR+OX3UmdNeGJftG4HhrSswI1BBEwddNQNfOtRFHhfECgzKTOzAbONyDr3RHlPLV76O4k3DcBuF9SUEqVVRErDAwdm8iK5phoC6EEzqffAGvrMDei/BeL9QCQYKvmH7sEeUaVqg7cV4kVkEr2TqfZ05ydV7vq8tqzgThe0WsEvzeEJ201AU7DuoP0YuWsbfdbgbIQ1xhMSBlEAqQRqR6Dxq20W3ftaKxEmYOUtEjxgUTe+ldReNpLoi1iGwxGuqgg+sj50E4p0VugXL02biQ1x3QkMd2bQkid9B5RRCxfW+Bd7NvMYZV0UQNSPM689TQ/imMe6OqfJlELIQSQp07WhjQedevnwwwxmeM9uHFnllbjfgDw/Hs7HPcjnl7O55xG38qs3caiAg3FKxBUkH/KNquWbvVjKOry/qsiMD++p+daXcfa54fCDuPUqJ92leC4zK7fV4/wCtvHx+Pju/m0At21cXOrRyCUMLqV/STodSIO3iK8uEzIF1Ha1zLqNO7nTEnErqrFpraDuREUf5VmhuM4ljCdXY+Tn7xXSaePLK27VbGBuBgiOZ0y6lYPhqY9KYf+H8RtoDbvXXbTMpyGNOTMxza94FBuHZ+uTMTqdz3j491dSt2yqKx1zD3ad9GXUEtc86Q3b7WsKMSCHz3RqADl+gg9nTmdu6lxAuXVj7v510zpXwu1fRXe41rqgxzZQwg5SSRIJjKNqQbuDsj9FdF7zR109SaMcpfRyliOxiVK5coIHiQdT4GKMYXs8Mxcf1qL8U++g9m8i6Mh1/VKmi1i4Dw3ErszX1YL9YrNozG5G+vga2yVAa3640W4P0cuXi+bNaAts6lkMOwiEExvJ120rK9E8SRJUL4Fh9kikbnp1C6jxJcnKCYgawPdOm5qtxbj4w62cylzdIUZSNDA1186vX7xII8KTOlt8Lc4eXMKrZ30nRWszoNTpmrnGnQjYPIg0G47x63hGRbwftglSoBGkTzkbipMP0xwD/APyFH7asvxZQKSvylcTtXr1nqri3AtsyUYESzbSOfZGniK1qA6YbiNvE2DctzlIZdRBkAg1zXHAdXLZuZ09NzEAU5dCUIwanvLH/ADN/KhljiVxofrX1VZhshI100bkSfeazcvFvHjud6J3DsIbrW0XMSx1ygkju0FNV7ovi4AS0qrsTcIExzEnbnRHh7C5efMbhAQadaxBJZtTB12A9a243w2wbF36Jf0ZbNrIIEjUknQj1rn+t3rTplxX6udFVTB2nt379gMzZhFxf1QCDLSdZ5c6IvxvD3LltFuqzZwQBmM8uS5eZ3NCuEdDMK1q3dKNLKCYYgajwoPwa2q41baiMl24o8lcgeegrpO3KjXFYhCeVxT6FLU1VXj9qHNq0XKEgkgASOevL3VR6UYhs9pAfbtkx3nIoHltQGyMQgAz2bffIX4ypk1rXTJk4l0kJtjKoQtpowOU89RofCk58TdFw9W9waycjHT1UzEVYvLmIL4pDHIIGHu0E+MTWz3LHI696IQfcTHwqnR6aNxS80DMTlMqZOZT3hiZnzJp4wF5yhNxs7mxaJbvlnjbfQikixZQkQLx8TH2U5cCs3UJFolWCLDGTAk6anz99VkGxvhWNSyD1rBMw0B3OvIbmtsdx42xnbKqbANuSdtRoD6ED0mh1vi+Hv5rGNFtnHZ60HLMHXeCmvJSR40P4r0RLDrMNeOICCBbJByhtzuNdo22qkQxh+J2rtstmVioLuqjOwE9wiBrm7tGqazgxchku/wBoZR4we0SYPI+7WII/oVhblnDhGlD286GCJLtuNvZy1B0hwGIhjYKCbheQAIDIBcLCO0xuS3OrSE+IdF7WKM3WuZoCoyESgXWII7YJlmMZpbYbVtwnoPhbeIXEJm7JzKhcEA5Y1BUkwdfa0NAr2JvLfebOIhIb6EgIwgH+yzEGRAJPlTDwHjV+6G6zDugXL+lEZ5nWIlSIHJjr5VFNa6MWk6xrQa1ccMuYNsGYMco2GoHKg2I6LXmZQ+KzIDqG1aPrdo6geG08qbrOJttobcHmGCj5nUeNSm6IhV90f6Zity69M5TfskcTtJhiVth8qKSSSszBOi6Hb3xVzgeBsuQ5uZpBn9WeYzAEAjaCZ+VJ3SDiPXO925eWGR1CW2tgqQxCq4LTlgSYknMdtBWeg+AxZdhZm3buLmLvaYqcp7OU6Zjqdj31vPkyywmN+MzCTK2H3EcHtNzDeAkgaxzAH4NLvD+GWWxGIR0BCFYG0TM6egps6O28SjXBijbygr1TqCuaR2iyyconKBsdCdoo8l9GA1Gh1/Arjj5d7buvhMt8Lw6+zatjxyilTiVqbzqogZjtsNe6usthUY6ifDT7aT+lXCbVqLiGCzQVnfQmROvd4a02KUoYiEvWNCPamfTup0wOLuMjBbgVjIQrrlEdkkHcg6x5UlcUP01j/F/ppqwqAisWUrmKtYg4d0udViCVIKlDbzjmuZWlSRz+VLXB+D4HFW2Ki9YYGLltbkwQezIcHMJ1G2oPdTbhyYEMR6z3d80s9IsG9i7+fWdSP0qbZl5kx6TppAPfVLUrYjo3g7DEXMYVlSVRlAOk/WmPSKT7N7Kc2VTpEMoYfHY+O9HsbdN+1iMWykBstu34KHXN66AT4HvpeuiJDAz7iK1KFvh3F7tn2G0O6nUH7RTJa6XWyBOFQnnDhRPkUaO/c70kBtdNq3mmUajt72QNzSh0jGHvMqFXuOgI7BiJiR4nQeHjR/pdiOoslwYbKAP2mMD3an0pFwOP6tIXc7nnRMeyn/o+g/6ZA/tXYPuA+2qt7C20Olu2fMu3zavXeIsedDr+JmtA2cH4u9pVkL1AIBCjVdeXx3n0qtw7H2lCLKSAqElWjTSfZ8/dQTA48gFeTaGjHBui7Yi2LouqoJIjKTBUkd/r61z5MJXTjz8RK9xXCI+ZsZa9nLFtXfnO4UeO9Q3sfgrmoTGYif6u2wG3cWgeYFNPCuEpaRVyoWAgsEAk9/nV8pWJhjLs3LKgOH6S31tqljh10qoAHW3FSB6iobd3HMwZcJhLMtLFiWbUyTKmJ3plVR3VgCt7YLPE+jJutbZnAKJk0Ez3nlVax0Fw43LnygffTgy1rlp2gGx0Vwq/9KfMn7Iq/Z4RZXa0n7oPzohFeAo2kdu0BsAPIR8qnUGsCpAKk5R0htdViboyq3abRhIhtR6wRrQ7hfFHsOGWdO4kEeRGo8tjzpp/KThIuJc1AdYJA5r/ACK+6kUHWJmtwOsdGOktvFMbdxZuKobMIBYbEx3g6GI3B8mq3h7Z1WCPx7q4Jgsa1i6l9PattI8R9YeREj1rq9jpDYeGVys6gwR8pqqNXVDkBXlEUqdHenNvEIWdWthWCZ2jKSZy67SRy5SBrIltw+VxIYGmJq4nf8fdUL3oMZgT3Hf4DX3Vf/Nh3msPgkYQyq3mJ+Bq1UAJxzDm8cPmPWjdMpH1c31oHs61ewvEbbu1pJzp7SkqCJ2JBMxtqAd6B8d/J5av3mvLde0zRIUAiQIBGxWIFY4D0DTDX1vm7cuOs5Sx0BIIJ01OhI1q7QLjelT2MZiLV5MyF5UZj2AqhRlGxmJiRqZ3piuNhsnW5bmYKGhMwbaSAZAMecCkjprhGfGXWUSFPajlIpn4jxfDxkOLFpkRBAVbmclToAAWkdyx7Ws6Rzlu3p5ePHHjl+/8WcF0msuG0uLlljmAkgDedpO2p5bjereD4sl5T1aMzSEKXLZEEhtWgsI7ME6jUa0sYNbYzCzh8TeLLBPU9Wp0jV7jBnJ5k1mxg+JKSbNnD4cMNS7BmUDkTqI56CtduM8Nfyu9I8Nh+rt3PzT/AJoQRZtlzAaM0i2cqwJOvdHOidzgweyxsNct3COwbqwAZG6lZiJHr4ai+Hpi8ISt+6txnObQaagSAYB3n50ct8XUjtKfLcGuOXJ43Va8N9wgYtuMYeS1sXF/WRFcf5NQPMCsHpHcxGGKZQt57nUgCRyXUgyRuf3TT4OOfqKY8W+yDHoar4rE9YQXt2yR7JygsukaMZjTuo/WxX6VKvSfDrawBtrsuVR49oSfM6n1oV0r4cgRLo0ZgqkaQYXfwMD4U7Y7h+Gxdo28xymD2H1Ea/WzfGh/H+DNfsm3hh1pGUxmXaeRkA6V0xzmXpnLC4+3LF00NSTVni/Cr1kkXbVy34spAPkYg+hqgimNq6MOk/lTxPYtjvuk/uqQPnSMuJ0rovTTgr4mwot6vbbMB+sIgjz2PpXLsRZe2ctxGQ9zAg/GiVVZfEVA92o0Vm9kE+QJ+VWeGcKv4gkWbTPliY2EzEk6CYPup2kdq9Brqn5PJOEk87jx5aD5g0n4PoRdUq2JZbSn6oIZz+yBK+pMD4U1vx23ZRbNmEVBAA7R9SdJO503NF7U6NmWsEUg3ukjn/qXD5EL/CBWtjjrTpfvKfFsw9zUeFO3QVWvFaVcB0pKsq3oZCQOsURlJ2zL3TzG07c6azRZpNTWsVlqwaE9Fer0VmpPCpFrQVnrAOdKDelXDRewzgkAqC6k7SAdD5iR7jyri8wfh7q7rjwty1ctnZkZfeCK4hdYZpaYI5bzGm/jHpWsRUT0XtXCFAnQAD3Cl6JO9XsJwa/d1t2btwHSVUlf3oge+lJ+I41ShTNJMfMGrPR/pViMNCIwZASYadBGwM6DTbbwqVeh7IM2JudSDtlC3I1+sFcMP8IYd5FT8YwmCSwqYe4LtzNLXDvGUiNoAmNKk67huMldLg/xCjNm8rCVMiuWXumIILWrFxwJJY7ADeYmB50X6O8Re7ZW8v0bEsCAZGjEDfyqmVntaO3ErrradrYUuBIzbeM6jlJ3G1AbF174Vvz5oP1bKIgbyJFwkeTVYt8UVhkurE6Tupnv/HpQvF9FVH0mGfqidezBRvMbHu2nyrW9hIOi+GLMzp1jHVjddrh02nOSNu4UXwuBtWxFtEQf2FAHwFLY41iLHYxNslds6SR7tXT0zDyozh+L2nTOtwQdj7Q9CN/L4VGiBWsUPu8ctjYMfLb46/Cqd3jrclUeZn7qWRplBEEAg8iJofieE29wxt/L47ehihrY2+/NvQZfuqC5hS47TdxkEk6GaxlJfbWNsopg+BWmBAvM0b5co+w1ftcDsj6pb9piftihXD7xsqVQTJklvwT76B9K+k+JtG2qFe3mJkHSMsRBAO/McqxMcPkauVOL8GwoBBs2lneAFk9+kEnxqrhfzPCZhbhM5kjMdTAA9o9wGgpTONf81F67cJYrPcCSSFECBvA2pbwfEsYyZ0tIymdgNwYOgINaDpWL6UWgCApfwAn5wPjSDxvpPh2vNm4facjQsSAT6BD86ot0gcGLtgj3r8CPtpexT53Zu9id/GoO3JU6GlPGdKQNLSz/AGm+7ehV/pNiD9ePIAfZNY00bulvEHsYO7cSMwAUTqO06qfgTXPugvGBhrlwn2DbkqPrOpGQTy9pvee6vcS4pduoUd3YHkWJGhkaTFBLQyyOdbkFph4hxd7rF2PaPuA7h3ChjXKhFytWetMtzerXragLVrmqQlZxR237wdiOYNdG6HY7rLGUmTbOTXfLunw7P+GuU27kGnX8n2J+lup+sgb91o/10ZejD6TUZavGthbJ2Brm00NzwqNnPfW+Ws9STyNIQVuteZQOYnuBE14VJBxPiCWLZuXJyyAYE77VyS9gTcYiwty4oMDsEmOUhZ1rpvSnCNew5tpGbMp18DrsDS7xvH3bSYXCozo6IisQSB7IUMTyUEMSTTEDpwjF4exec2sltkyuXyyQTEATmBkjlVTgl/MFsviL1m0WhcikgsSJGjAg6ryO/vIcT6Q3nsXMPcKsTAkFSdGU6Fd9qDcO4m9q2yKNS+aTy7IG321oGbi/BvzcqbgGItLpJMOB3NBkjx28tic4Q2CYA2bKZo2yAsPVtaUuimMuHFHO8wjbmVmVHl6ij2N4CSetw5Fu5vlB7LeX6p/Gm9CHsaGuI1vLAZSpzNGhEH2dq14Tw/qbYtgyBPxJJ18zQbhfSjtdTikNtxpJHzH2j+dMwcEAjUHmNo76NFg9xrexddDNto7wdj+PX0rE16KkIW+JW3GW4uU90SD+PX0oNf4Xhy/WWlZSd42PnynzqwbgG9SLfFPktAvHLq4a11pQ3O0FgtGpnuERp3V7ovj2xCuxRbYVgAF8p1PP3CounbzhR/eL8mrHQP8AR3P2x/CKN9LXZgNof+9a2NTFa1KVhpAwpK6c/pbH7L/6aeilJHTwfTWf2G+dOPsX0LYDC5sNbUgEFBIIkGaG8St28PaMJlA2jaTt5a0x8GX/AJez/dr/AAipcRhVcFWUMDuCJBo32XMMDwvr16y5dMkmFAk6GPQeFb/0bbkpjxMfOug2+EoohFCjuXQfCtTwod9PkNJ36FYbk10eo+6g/G+jLWFNy2i3VAkgzmA8FB7XoZ8K6GFXcmvTb8TXRlxNOkdsclHlbH2saB4nF57jOT7TE8hpy0Gg0ivoAYaxELaQA79kfdXOLHHMOj9Vh7CWrhbItxssK0wGIC7A66mlEbrKwblMPE+ibKA9q4MR9IFdbanQmSdRoBp8RXSLXRrA2gjJYtQYMuAx1Ghm4T9tCcWsqzmEVmPcoJPwo9wroZjb50tG2N816VHoILE+ldfXH2E0Ur5IPu0qviOJhtFDecx99YyuXxqQjJ+S+9pmxNseSMfmRNMvRvoSmGudYb5dshSAoAglSeZP1RUx4iEO6g+Jk/GapYrpKo3uk+AMfDT5VmTP7VdGq9hRELA755ipRi7a6EgEb93vO9JGDZ3uu0lREayJ+Gv86u9UBPtMZ1AgfFjrWscfG7Nu5oX4njfr2CGYCWXWGH3jf30IF/E319gZT4AD3kz7qp8T4qcOy9WBJn2pPyiqfRzjxy3szqi9Z2RoAC24XuE6x51rbOh7B8NuKxkctxtVp0jmPQ0MscQW7mhy2Uwd9/t9Ks4YeFZqLXSvjF4XreGw7AM+hOkhidBJ9nTX1oXc6I337WIxSg/4nPxy0fxvR4NiRiROYcuUxE+cUQZbv9hfSra0TMV0StojOLlxioLTAgwJiNx5zQ7A8ItXEzvcfMSYVANIMayD9lNnSDEdXZYvcJLAqAOZIPp30u8AkqjDeW/iNO0r2+i9xj2WPhmX7ZqxwHFX7WJFguHUTnEyBA5FgCCGgaU24fEEjWhVjg9tbzXRMtOk6amTp407AzjsBZxKQ+42YRmX7x8KXhexGAaCesszvrH/AIH8a0TawV1TTwFWbGLVxkcDXQg7GraW+HcWS8sodeancffVskmlHH8Ba2etwxOmuWdvI/Z/6q7wbpKG+jvDKw0nx8RyNKHilaFYqcsIzcu8fPTlWcgOu/dFFJe6YPOHA/8AsX5NW/Qpot3P2x/CK90ztxYH94vyatehs9Xc/b/0ij4vpoV6kDVVVqmU1lpODSL0+P8AzFn+7P8AEab8VxC1ajrLiJO2ZgJ99I3TPGpdxNo23V16rdSCJz3NNOdM9infhFv/AJez/dJ/AKsMtUMFxfDolq21xQ3VqIM8lA3iB76KsKz1SqmsVM6VEyHvoIuHBNR3rUajaobeJHMVbJBGh0rswit1xLFcNuF7rBGgO5JjuJruBfYVxDiHEmN5w7MUFxpE8sxkDu0qQtwrhuNS22Q3bTNlKJlYdYNmPcAoIMkc6e+F8Em1ba5cUSik6+A7prleIxlhjeMXQDHVDNMCdQxIM6bU+8B4ifzayADoij3Ci2HHY/f4fbUjKxbQzpHd3+vdS9jbrh3XMAA0DnyHf58qLYXEkEm52RGmYx86HYvh925cchBlZgwYtpsIOm+1Z21P5c74hxq8zMC0AEj3HxobcvM27E+tdRwXQPDDtXAzsdSMxifCI086h6V4O1hEtNbthELFHKqNSRKT7mHrWtsaFsIg6xiD9VZOsTrt6RVpnHIFiDECPtI2FK/Q/HdZfyAgLlLQY7UDQDn3nT9WngKBRSVekmCdyhRGO4kAncVng/BCmbrEBLZXAgwDGuk7yNjTSDWaNkOtYMgQFVRvoAPlVi2mWrLCoyKghuNVO+auuKrXFoIRjsEl1SjiQfH8QaiwnDEtgKggCiN23WiKagi6jSK0NuryWTW/UikKAB7qju8PLajSiRSsqKkH4a4UMPr4/jcVvxPglrECRCvGjrz8+/51buWQ29VVz2j3r+PcadgBs47EYJsl0Fk5HcH9k9/x8KauHcQt3llDruRzHp9tSE27yFWAYHcH8fGlTifALuHPW4cllGsD2l93tD4+e9KEumR+gAiPpF+Te+tehn6O5+3/AKRQXiHHzfsC2w7QYNI5gBh9oo30M/RP+3/pFXxDrLP31spIrANZrJIHTiTiSQM0Whoe4Zp+2ruD4fYyhkRYZQQd9CNN690+sQ1u7EggofMar6xn18Kq9GsYGti3PaTSP7M9mO/TT0rnyS66dOOzavxHDFIbKQDI2MTvp6d3dT1wHjVu5athrii5EFSQCSNJE7zE6UE49iw2H6sqSwghp2IPv2n30kcQuFUB3EkEeY/kaMGs/TtJrXLXJOE8bv5hF+4IWAMxPd+sSBy91dTwdwtbRm3KqT5kAmuljlK3WprVyK9Xq0knWa1wjHyb1wAEk3GAA59sxXq9TBRvg/DQlu6L56sEKDntktIMwuzKe+PWmOz0nw9iwtu2rXGRQBIygx3nce6sV6mxFLpHxt8WVzqqBJyhZ5xJJJ1Ogo/b6c3FRVW3bGVQJMmYEciK9XqNBNY6cXyfZtfun/dV/i3HVxOCxFuMlwJmidGCkMYPfAOn849XqtQgf5NsAz4g3pGW0pBnclwwEctIM+nfXTDXq9Wb7MYmsgV6vUFtFaster1QaMtQMlZr1KRNbFaMK9XqE1rM1mvUh41G+nlWK9UmVNThQw1rFeqShfwrIcyT+Psre3j50PZMxPI/cfOvV6pF/pTgLaqLqiHLZW8ZBMnlOnKhnC+MPYOmqncHn9xrFerUBvwHFLd4Sra81O4+8eIq6L3fXq9QUWPw1u9bZLnsnnMRGxB5EVyRrht3GgmVJAYc4Jj/ANVmvVRCL8bDqBcBDCdVG50j8eNUb15XUjNv3+Fer1HhNted1pZ4BgxcdUWczEqYG2ntTtEa+ldfFer1WTMf/9k=" 
+                        alt="Laboratório de robótica" itemprop="image"width="25%">
+                    </div>
+                </article>
+                <article itemscope itemtype="https://schema.org/NewsArticle">
+                    <div class="noticia-content">
+                        <h3 itemprop="headline">Alunos premiados em Olimpíada Nacional de Matemática</h3>
+                        <p itemprop="articleBody">Estudantes da Faculdade Hogwars conquistaram 3 troféus na competição nacional de robótica que reuniu as melhores equipes de robótica do país.</p>
+                        <div class="noticia-meta">
+                            <time itemprop="datePublished" datetime="2025-08-01">1 de Agosto de 2025</time>
+                            <span class="noticia-categoria">Conquistas</span>
+                        </div>
+                        <a href="#" class="noticia-link">Leia mais</a>
+                    </div>
+                    <div class="noticia-img">
+                        <img src="https://s2-g1.glbimg.com/1TrAo7s-GVFapAl_BH9Q7RyY2YU=/0x0:600x400/924x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2017/C/V/0DVv08Q5aoiAW0D20cgg/5.jpg" alt="Estudantes com medalhas" itemprop="image">
+                    </div>
+                    
+                </article>
+            </div>
+            <div class="noticias-mais">
+                <a href="#" class="btn-noticias">Ver todas as notícias</a>
+            </div>
+        </section>
+
+        <!-- Seção de depoimentos -->
+        <section id="depoimentos" class="fade-in">
+            <div class="section-header">
+                <h2>Depoimentos</h2>
+                <p>O que nossos alunos e ex-alunos dizem sobre nós</p>
+            </div>
+            <div class="depoimentos-container">
+                <div class="depoimentos-slider">
+                    <div class="depoimento-item">
+                        <blockquote itemscope itemtype="https://schema.org/Review">
+                            <p itemprop="reviewBody">"A Faculdade Hogwars mudou minha vida. Tive acesso a uma educação de qualidade que me preparou para os desafios do mercado de trabalho. Hoje sou gerente em uma multinacional e devo muito à instituição."</p>
+                            <footer>- <span itemprop="author">Carlos Mendes, Ex-Aluno de Administração</span></footer>
+                            <meta itemprop="reviewRating" content="5">
+                        </blockquote>
+                    </div>
+                    <div class="depoimento-item">
+                        <blockquote itemscope itemtype="https://schema.org/Review">
+                            <p itemprop="reviewBody">"Professores qualificados, ótima estrutura e metodologia de ensino que realmente prepara para a prática profissional. Recomendo a todos que buscam uma formação completa e atualizada."</p>
+                            <footer>- <span itemprop="author">Mariana Santos, Aluna de Direito</span></footer>
+                            <meta itemprop="reviewRating" content="5">
+                        </blockquote>
+                    </div>
+                    <div class="depoimento-item">
+                        <blockquote itemscope itemtype="https://schema.org/Review">
+                            <p itemprop="reviewBody">"O intercâmbio internacional proporcionado pela faculdade foi uma experiência incrível! Pude estudar um semestre na Europa e isso enriqueceu muito minha formação acadêmica e pessoal."</p>
+                            <footer>- <span itemprop="author">Ricardo Oliveira, Aluno de Ciência da Computação</span></footer>
+                            <meta itemprop="reviewRating" content="5">
+                        </blockquote>
+                    </div>
+                    <div class="depoimento-item">
+                        <blockquote itemscope itemtype="https://schema.org/Review">
+                            <p itemprop="reviewBody">"A infraestrutura da faculdade é excelente, principalmente os laboratórios de engenharia que nos permitem colocar em prática toda a teoria aprendida em sala de aula."</p>
+                            <footer>- <span itemprop="author">Amanda Costa, Aluna de Engenharia Civil</span></footer>
+                            <meta itemprop="reviewRating" content="5">
+                        </blockquote>
+                    </div>
+                    <div class="depoimento-item">
+                        <blockquote itemscope itemtype="https://schema.org/Review">
+                            <p itemprop="reviewBody">"Participei do Hackathon organizado pela faculdade e foi uma experiência única! Pude desenvolver minhas habilidades técnicas e de trabalho em equipe, além de fazer networking com profissionais da área."</p>
+                            <footer>- <span itemprop="author">Pedro Almeida, Aluno de Computação</span></footer>
+                            <meta itemprop="reviewRating" content="5">
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="depoimentos-controles">
+                    <button class="controle-prev">❮</button>
+                    <button class="controle-next">❯</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de parcerias -->
+        <section id="parcerias" class="fade-in">
+            <div class="section-header">
+                <h2>Parcerias e Convênios</h2>
+                <p>Rede de colaboração para melhor formação dos alunos</p>
+            </div>
+            <div class="parcerias-grid">
+                <div class="parceria-item">
+                    <img src="https://www.estudarfora.org.br/wp-content/uploads/2022/05/Universidade-de-Lisboa.jpg" alt="Universidade Internacional"width="45%">
+                    <h3>Universidade Internacional de Lisboa</h3>
+                    <p>Convênio para intercâmbio de alunos e professores, além de projetos de pesquisa conjuntos.</p>
+                </div>
+                <div class="parceria-item">
+                    <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d" alt="Hospital Municipal" width="45%">
+                    <h3>Hospital Municipal Hogwars</h3>
+                    <p>Parceria para estágios dos cursos de Medicina, Enfermagem e áreas da saúde.</p>
+                </div>
+                <div class="parceria-item">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71" alt="Empresa de tecnologia"width="45%">
+                    <h3>Empresa Tech Solutions</h3>
+                    <p>Colaboração para desenvolvimento de projetos de TI e oportunidades de estágio.</p>
+                </div>
+                <div class="parceria-item">
+                    <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d" alt="Instituto de pesquisa"width="45%">
+                    <h3>Instituto de Pesquisa Científica</h3>
+                    <p>Parceria para desenvolvimento de pesquisas científicas em diversas áreas do conhecimento.</p>
+                </div>
+            </div>
+            <div class="parcerias-info">
+                <p>Essas parcerias proporcionam oportunidades de estágio, intercâmbio, pesquisa e desenvolvimento profissional para nossos alunos, ampliando suas perspectivas de carreira.</p>
+            </div>
+        </section>
+
+        <!-- Seção de projetos de extensão -->
+        <section id="extensao" class="fade-in">
+            <div class="section-header">
+                <h2>Projetos de Extensão</h2>
+                <p>Conhecimento em benefício da comunidade</p>
+            </div>
+            <div class="extensao-grid">
+                <div class="extensao-card">
+                    <h3>Projeto Comunidade Saudável</h3>
+                    <p>Atendimento gratuito à população em áreas de saúde, nutrição e educação física.</p>
+                    <div class="extensao-stats">
+                        <span>+500 atendimentos mensais</span>
+                    </div>
+                </div>
+                <div class="extensao-card">
+                    <h3>Oficinas de Tecnologia para Jovens</h3>
+                    <p>Cursos e workshops de programação, robótica e tecnologia para estudantes do ensino médio.</p>
+                    <div class="extensao-stats">
+                        <span>+200 jovens impactados</span>
+                    </div>
+                </div>
+                <div class="extensao-card">
+                    <h3>Assessoria Jurídica Gratuita</h3>
+                    <p>Atendimento jurídico para população de baixa renda, sob supervisão de professores.</p>
+                    <div class="extensao-stats">
+                        <span>+100 casos atendidos</span>
+                    </div>
+                </div>
+                <div class="extensao-card">
+                    <h3>Feira de Ciências Itinerante</h3>
+                    <p>Levando experimentos científicos e atividades educativas para escolas públicas.</p>
+                    <div class="extensao-stats">
+                        <span>15 escolas visitadas</span>
+                    </div>
+                </div>
+            </div>
+            <div class="extensao-info">
+                <p>Os projetos de extensão aproximam a faculdade da sociedade e promovem o desenvolvimento regional, permitindo que os alunos apliquem na prática os conhecimentos adquiridos em sala de aula.</p>
+            </div>
+        </section>
+
+        <!-- Seção de testemunhos de empresas -->
+        <section id="testemunhos" class="fade-in">
+            <div class="section-header">
+                <h2>Testemunhos de Empresas Parceiras</h2>
+                <p>Reconhecimento do mercado</p>
+            </div>
+            <div class="empresas-testemunhos">
+                <blockquote>
+                    "Os alunos da Faculdade Hogwars demonstram excelente preparo e profissionalismo. Temos contratado vários estagiários e recém-formados da instituição e ficamos impressionados com a qualidade da formação que recebem."
+                    <footer>- <strong>Tech Solutions</strong>, Diretora de RH</footer>
+                </blockquote>
+                <blockquote>
+                    "A parceria com a faculdade tem sido fundamental para o desenvolvimento de pesquisas inovadoras em nossa área. Os professores e alunos trazem uma perspectiva acadêmica que complementa nossa visão de mercado."
+                    <footer>- <strong>Instituto de Pesquisa Científica</strong>, Diretor de Inovação</footer>
+                </blockquote>
+                <blockquote>
+                    "Contratamos engenheiros formados na Faculdade Hogwars e percebemos que eles chegam ao mercado com uma base sólida de conhecimentos técnicos e capacidade de resolver problemas complexos."
+                    <footer>- <strong>Construtora Nacional</strong>, Gerente de Projetos</footer>
+                </blockquote>
+            </div>
+        </section>
+
+        <!-- Seção de estatísticas -->
+        <section id="estatisticas" class="fade-in">
+            <div class="section-header">
+                <h2>Nossos Números</h2>
+                <p>Indicadores de qualidade e desempenho</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number">95%</div>
+                    <div class="stat-label">Taxa de empregabilidade</div>
+                    <div class="stat-desc">dos nossos formados estão empregados em até 6 meses após a graduação</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">4.8</div>
+                    <div class="stat-label">Avaliação no MEC</div>
+                    <div class="stat-desc">nota máxima em infraestrutura e corpo docente</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">5.000+</div>
+                    <div class="stat-label">Alunos formados</div>
+                    <div class="stat-desc">profissionais atuando no mercado desde nossa fundação</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">120</div>
+                    <div class="stat-label">Projetos de pesquisa</div>
+                    <div class="stat-desc">em andamento com financiamento interno e externo</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de FAQ -->
+        <section id="faq" class="fade-in">
+            <div class="section-header">
+                <h2>Perguntas Frequentes (FAQ)</h2>
+                <p>Tire suas dúvidas sobre nossa instituição</p>
+            </div>
+            <div class="faq-container">
+                <details>
+                    <summary>Como faço para me inscrever no vestibular?</summary>
+                    <div class="faq-content">
+                        <p>Basta acessar a página de inscrições em nosso site e preencher o formulário online. Você precisará de:</p>
+                        <ul>
+                            <li>Documento de identidade (RG ou CNH)</li>
+                            <li>CPF</li>
+                            <li>Comprovante de residência</li>
+                            <li>Histórico escolar do ensino médio</li>
+                        </ul>
+                        <p>O valor da inscrição é de R$ 50,00, com isenção para estudantes de escola pública.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Quais são as formas de pagamento disponíveis?</summary>
+                    <div class="faq-content">
+                        <p>Oferecemos diversas opções para facilitar o pagamento das mensalidades:</p>
+                        <ul>
+                            <li>Boleto bancário (com vencimento no dia 10 de cada mês)</li>
+                            <li>Cartão de crédito (até 12x sem juros)</li>
+                            <li>Débito automático em conta corrente</li>
+                            <li>Programa de parcelamento institucional</li>
+                        </ul>
+                    </div>
+                </details>
+                <details>
+                    <summary>Há bolsas de estudo disponíveis?</summary>
+                    <div class="faq-content">
+                        <p>Sim, temos vários programas de bolsas:</p>
+                        <ul>
+                            <li><strong>Bolsa por Mérito:</strong> Para alunos com excelente desempenho no vestibular</li>
+                            <li><strong>Bolsa Social:</strong> Para estudantes de baixa renda</li>
+                            <li><strong>Bolsa Atleta:</strong> Para alunos que se destacam em modalidades esportivas</li>
+                            <li><strong>Bolsa Cultura:</strong> Para participantes ativos de grupos culturais da instituição</li>
+                            <li><strong>Convênios empresariais:</strong> Descontos para funcionários de empresas parceiras</li>
+                        </ul>
+                    </div>
+                </details>
+                <details>
+                    <summary>Posso transferir de outra instituição?</summary>
+                    <div class="faq-content">
+                        <p>Sim, aceitamos transferências de outras instituições de ensino superior. O processo inclui:</p>
+                        <ul>
+                            <li>Análise do histórico escolar</li>
+                            <li>Verificação da equivalência de disciplinas</li>
+                            <li>Entrevista com a coordenação do curso</li>
+                            <li>Teste de nivelamento (em alguns casos)</li>
+                        </ul>
+                        <p>Entre em contato com nossa secretaria acadêmica para mais informações.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Como funciona o programa de intercâmbio?</summary>
+                    <div class="faq-content">
+                        <p>Nosso programa de intercâmbio oferece oportunidades em diversas universidades parceiras no exterior:</p>
+                        <ul>
+                            <li>Editais semestrais para seleção de alunos</li>
+                            <li>Bolsa auxílio para despesas de moradia e alimentação</li>
+                            <li>Isenção de mensalidade na universidade de destino</li>
+                            <li>Reconhecimento integral das disciplinas cursadas</li>
+                            <li>Acompanhamento durante todo o período no exterior</li>
+                        </ul>
+                    </div>
+                </details>
+                <details>
+                    <summary>Quais cursos têm opção EAD?</summary>
+                    <div class="faq-content">
+                        <p>Atualmente, oferecemos as seguintes opções na modalidade EAD:</p>
+                        <ul>
+                            <li>Administração</li>
+                            <li>Ciência da Computação</li>
+                            <li>Pedagogia</li>
+                            <li>Gestão de Recursos Humanos</li>
+                            <li>Análise e Desenvolvimento de Sistemas</li>
+                        </ul>
+                        <p>Estamos constantemente ampliando nossa oferta de cursos EAD.</p>
+                    </div>
+                </details>
+                <details>
+                    <summary>Há alojamento para estudantes de outras cidades?</summary>
+                    <div class="faq-content">
+                        <p>Sim, oferecemos residência estudantil com as seguintes características:</p>
+                        <ul>
+                            <li>Quartos individuais e coletivos</li>
+                            <li>Cozinha comunitária equipada</li>
+                            <li>Salas de estudo e lazer</li>
+                            <li>Lavanderia</li>
+                            <li>Wi-Fi em todas as dependências</li>
+                            <li>Preços acessíveis para estudantes</li>
+                        </ul>
+                    </div>
+                </details>
+                <details>
+                    <summary>Como é o processo de estágio na instituição?</summary>
+                    <div class="faq-content">
+                        <p>Nossa Central de Estágios auxilia os alunos em todo o processo:</p>
+                        <ul>
+                            <li>Cadastro de currículos no banco de oportunidades</li>
+                            <li>Divulgação de vagas de estágio</li>
+                            <li>Preparação para entrevistas</li>
+                            <li>Orientação sobre documentação necessária</li>
+                            <li>Acompanhamento durante o período de estágio</li>
+                        </ul>
+                        <p>Mais de 80% dos nossos alunos realizam estágios durante a graduação.</p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- Seção de contato -->
+        <section id="contato" class="fade-in">
+            <div class="section-header">
+                <h2>Fale Conosco</h2>
+                <p>Entre em contato para mais informações</p>
+            </div>
+            <div class="contato-container">
+                <div class="contato-form">
+                    <form action="obrigado.html" method="post">
+                        <div class="form-group">
+                            <label for="nome">Nome completo:</label>
+                            <input type="text" name="nome" id="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" name="email" id="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" name="telefone" id="telefone">
+                        </div>
+                        <div class="form-group">
+                            <label for="assunto">Assunto:</label>
+                            <select name="assunto" id="assunto">
+                                <option value="duvida">Dúvida sobre cursos</option>
+                                <option value="inscricao">Processo seletivo</option>
+                                <option value="financeiro">Financeiro</option>
+                                <option value="evento">Eventos</option>
+                                <option value="estagio">Estágios</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea name="mensagem" id="mensagem" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <input type="checkbox" name="newsletter" id="newsletter">
+                            <label for="newsletter">Desejo receber informações sobre cursos e eventos</label>
+                        </div>
+                        <input type="submit" value="Enviar mensagem" class="btn-submit">
+                    </form>
+                </div>
+                <div class="contato-info">
+                    <h3>Informações de Contato</h3>
+                    <div class="info-item">
+                        <span class="info-icon">📍</span>
+                        <div>
+                            <strong>Endereço:</strong>
+                            <p>Rua da Educação, 123 - Centro<br>Cidade Hogwars - Estado, CEP: 12345-678</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">📞</span>
+                        <div>
+                            <strong>Telefone:</strong>
+                            <p>(00) 1234-5678</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">✉️</span>
+                        <div>
+                            <strong>E-mail:</strong>
+                            <p>contato@faculdadeHogwars.edu.br</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-icon">🕒</span>
+                        <div>
+                            <strong>Horário de atendimento:</strong>
+                            <p>Segunda a sexta: 8h às 22h<br>Sábado: 8h às 12h</p>
+                        </div>
+                    </div>
+                    <div class="redes-sociais">
+                        <h4>Siga-nos nas redes sociais:</h4>
+                        <div class="redes-links">
+                            <a href="#" aria-label="Facebook">📘 Facebook</a>
+                            <a href="#" aria-label="Instagram">📷 Instagram</a>
+                            <a href="#" aria-label="Twitter">🐦 Twitter</a>
+                            <a href="#" aria-label="LinkedIn">💼 LinkedIn</a>
+                            <a href="#" aria-label="YouTube">📺 YouTube</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mapa-container">
+                <h3>Localização</h3>
+                <div id="mapa">
+                    <iframe src="https://www.openstreetmap.org/export/embed.html?bbox=-46.633309%2C-23.55052%2C-46.633309%2C-23.55052&amp;layer=mapnik" width="100%" height="300" frameborder="0" title="Mapa do Campus"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção de localização e acessos -->
+        <section id="localizacao" class="fade-in">
+            <div class="section-header">
+                <h2>Como Chegar</h2>
+                <p>Encontre a melhor rota para nosso campus</p>
+            </div>
+            <div class="acesso-info">
+                <div class="acesso-transporte">
+                    <h3>Transporte Público</h3>
+                    <ul>
+                        <li><strong>Ônibus:</strong> Linhas 101, 202, 305 (parada em frente ao campus)</li>
+                        <li><strong>Metrô:</strong> Estação Centro (a 800m do campus)</li>
+                        <li><strong>Trem:</strong> Estação Cidade (a 1,2km do campus)</li>
+                    </ul>
+                </div>
+                <div class="acesso-estacionamento">
+                    <h3>Estacionamento</h3>
+                    <ul>
+                        <li>Vagas gratuitas para alunos (mediante cadastro)</li>
+                        <li>Estacionamento para visitantes (R$ 5,00 por hora)</li>
+                        <li>Vagas especiais para pessoas com deficiência</li>
+                        <li>Bicicletário coberto e seguro</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="acesso-dicas">
+                <h3>Dicas de Acesso</h3>
+                <p>Estamos localizados no centro da cidade, próximo a pontos de interesse como shopping centers, restaurantes e áreas comerciais, com fácil acesso por diferentes meios de transporte.</p>
+                <p>Para quem vem de carro, recomendamos evitar o horário de pico (7h-9h e 17h-19h) devido ao trânsito intenso na região central.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé com informações adicionais -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Faculdade Hogwars</h3>
+                <p>Transformando conhecimento em futuro desde 1990.</p>
+                <div class="footer-contato">
+                    <p>📞 (00) 1234-5678</p>
+                    <p>✉️ contato@faculdadeHogwars.edu.br</p>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="#cursos">Nossos Cursos</a></li>
+                    <li><a href="#sobre">Sobre a Instituição</a></li>
+                    <li><a href="#eventos">Eventos</a></li>
+                    <li><a href="#noticias">Notícias</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Serviços</h3>
+                <ul>
+                    <li><a href="#">Biblioteca Virtual</a></li>
+                    <li><a href="#">Portal do Aluno</a></li>
+                    <li><a href="#">Central de Estágios</a></li>
+                    <li><a href="#">Bolsa de Empregos</a></li>
+                    <li><a href="#">Editais e Processos Seletivos</a></li>
+                </ul>
+                    <h3>Newsletter</h3>
+                    <p>Receba nossas novidades por e-mail:</p>
+                    <div class="newsletter">
+                        <form action="#">
+                            <input type="email" placeholder="Seu e-mail">
+                            <input type="submit" value="Assinar">
+                        </form>
+                    </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-links">
+                <a href="politica-privacidade.html">Política de Privacidade</a> |
+                <a href="termos-uso.html">Termos de Uso</a> |
+                <a href="https://facebook.com/faculdadeexemplo">Facebook</a> |
+                <a href="https://instagram.com/faculdadeexemplo">Instagram</a> |
+                <a href="https://youtube.com/faculdadeexemplo">YouTube</a>
+            </div>
+            <p>&copy; 2025 Faculdade Hogwars - Todos os direitos reservados</p>
+            <p>Desenvolvido por alunos do curso de engenharia da Computação</p>
+        </div>
+    </footer>
+
+    <!-- Botão para voltar ao topo -->
+    <button id="voltar-topo" aria-label="Voltar ao topo">↑</button>
+
+    <script src="script.js"></script>
+
+
+    <!-- Scripts JavaScript -->
+    <script>
+        // Botão de voltar ao topo
+        const btnTopo = document.getElementById('voltar-topo');
+        btnTopo.onclick = () => window.scrollTo({top: 0, behavior: 'smooth'});
+        window.addEventListener('scroll', () => {
+            btnTopo.style.display = window.scrollY > 300 ? 'block' : 'none';
+        });
+
+        // Controles do carrossel de depoimentos
+        const slider = document.querySelector('.depoimentos-slider');
+        const prevBtn = document.querySelector('.controle-prev');
+        const nextBtn = document.querySelector('.controle-next');
+        let currentIndex = 0;
+
+        function updateSlider() {
+            const itemWidth = document.querySelector('.depoimento-item').offsetWidth;
+            slider.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+        }
+
+        nextBtn.addEventListener('click', () => {
+            const items = document.querySelectorAll('.depoimento-item');
+            currentIndex = (currentIndex + 1) % items.length;
+            updateSlider();
+        });
+
+        prevBtn.addEventListener('click', () => {
+            const items = document.querySelectorAll('.depoimento-item');
+            currentIndex = (currentIndex - 1 + items.length) % items.length;
+            updateSlider();
+        });
+
+        // Inicialização
+        window.addEventListener('load', () => {
+            updateSlider();
+        });
+
+        // Animação de elementos ao rolar a página
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in-visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
