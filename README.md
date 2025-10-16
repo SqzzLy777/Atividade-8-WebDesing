@@ -172,38 +172,4 @@ git push -u origin main
 5. Tire prints do terminal e da página publicada.  
 
 ---
-
-## 📸 Prints que devem ser enviados no Canvas
-
-- Print do **VS Code** com os arquivos no Explorer.  
-- Print do **terminal** com os comandos Git executados.  
-- Print do **repositório GitHub** com os arquivos.  
-- Print da **página rodando** no navegador.  
-- Print dos **botões estilizados** e das funcionalidades (modo escuro, relógio, alert etc.).  
-
----
-
-## 🧾 Conclusão
-
-O projeto da **Faculdade Hogwars** cumpre todos os requisitos propostos:
-
-✅ HTML, CSS e JavaScript integrados corretamente.  
-✅ JavaScript externo com mais de 10 funcionalidades.  
-✅ Código comentado e bem estruturado.  
-✅ README.md com mais de 100 linhas, explicativo e detalhado.  
-✅ Uso de Git e publicação no GitHub.  
-✅ Prints e documentação prontos para envio no Canvas.  
-
----
-
-### ✨ Autor
-
-**Nome:** [Seu Nome Aqui]  
-**Curso:** [Nome do Curso]  
-**Disciplina:** Programação Web  
-**Professor(a):** [Nome do(a) Professor(a)]  
-**Ano/Semestre:** 2025/2  
-
----
-
-> “Educação é a arma mais poderosa que você pode usar para mudar o mundo.” — Nelson Mandela
+ 
